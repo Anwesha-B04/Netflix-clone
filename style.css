@@ -41,10 +41,11 @@ nav .buttons{
 nav{
     display: flex;
     margin: auto;
-    max-width: 70vw;
+    max-width: 76vw;
     align-items: center;
     justify-content: space-between;
     height: 62px;
+    padding: 13px 20px;
 }
 
 .hero{
@@ -126,9 +127,10 @@ nav{
     border: none;
     cursor: pointer;
     font-family: "Martel Sans", sans-serif;
-    font-weight: 900;
+    font-weight: 800;
     font-style: normal;
     text-align: center;
+    padding: 5px;
 }
 
 .input .b3:hover{
@@ -146,3 +148,47 @@ nav{
     
 }
 
+nav .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttons .b1{
+    height: 35px;
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+    padding: 2px;
+}
+
+.buttons .b2{
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    padding: 2px;
+}
+
+.buttons .b2:hover{
+    background-color: #b2070f;
+    transition: 0.37s;
+}
