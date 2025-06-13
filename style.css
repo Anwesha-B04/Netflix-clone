@@ -214,22 +214,35 @@ nav .buttons{
 .card {
     position: relative;
     flex: 0 0 auto;
-    width: 150px;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card img {
     width: 100%;
-    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    z-index: 2;
+    position: relative;
 }
 
 .card .rank {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 2rem;
+    left: -20px;
+    bottom: 0;
+    font-size: 8rem;
     font-weight: 900;
     color: white;
-    text-shadow: 2px 2px 4px #000;
+    z-index: 1;
+    -webkit-text-stroke: 2px black;
+    font-family: "Martel Sans", sans-serif;
+    opacity: 0.9;
 }
 
 .reasons {
