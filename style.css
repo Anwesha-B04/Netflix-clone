@@ -251,7 +251,12 @@ nav .buttons {
     display: none;
 }
 
-
+.card img:hover {
+    transform: scale(1.08);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    z-index: 3;
+}
 
 .card .rank {
     position: absolute;
