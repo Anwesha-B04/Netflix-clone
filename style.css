@@ -192,3 +192,43 @@ nav .buttons{
     background-color: #b2070f;
     transition: 0.37s;
 }
+
+.trending {
+    background-color: #000;
+    padding: 40px 5vw;
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+}
+
+.trending h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.trending-row {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.card {
+    position: relative;
+    flex: 0 0 auto;
+    width: 150px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card .rank {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+
