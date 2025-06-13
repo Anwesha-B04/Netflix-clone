@@ -241,10 +241,11 @@ nav .buttons {
 }
 
 .trending-row {
-    display: flex;
-    overflow-x: auto;
-    padding-bottom: 20px;
-    scrollbar-width: none;
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px 0;
+  scrollbar-width: none;
 }
 
 .trending-row::-webkit-scrollbar {
