@@ -255,3 +255,24 @@ nav .buttons{
     padding: 20px;
     border-radius: 10px;
 }
+
+.faq {
+    background-color: #000;
+    color: white;
+    padding: 50px 5vw;
+    font-family: "Martel Sans", sans-serif;
+}
+
+.faq h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.faq-item {
+    background-color: #333;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
